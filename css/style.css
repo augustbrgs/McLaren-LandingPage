@@ -1,0 +1,168 @@
+                @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+                 :root {
+                    --orange: #FF9800;
+                    --black: #000000;
+                    --white: #ffffff;
+                    --gray: #53565A;
+                    --aqua: #47C7FC;
+                    --green: #009C3B;
+                }
+                
+                html {
+                    scroll-behavior: smooth;
+                }
+                
+                body {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                * {
+                    outline: 1px solid red;
+                }
+                
+                .wrapper {
+                    position: absolute;
+                    width: 100%;
+                    height: fit-content;
+                }
+                
+                .wrapper-header {
+                    position: absolute;
+                    width: 100%;
+                    height: 700px;
+                    background-color: var(--black);
+                }
+                
+                nav {
+                    position: fixed;
+                    width: 100%;
+                    height: 75px;
+                    display: flex;
+                    background-color: var(--black);
+                    z-index: 10;
+                }
+                
+                #logo {
+                    width: 80px;
+                    padding: 15px;
+                    margin-left: 50px;
+                }
+                
+                .nav-left {
+                    width: 65%;
+                }
+                
+                .nav-right {
+                    width: 35%;
+                    display: flex;
+                    align-content: flex-end;
+                    align-items: center;
+                    gap: 50px;
+                }
+                
+                .list {
+                    width: fit-content;
+                }
+                
+                .list a {
+                    font-family: 'Space Grotesk', sans-serif;
+                    font-size: 20px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    color: var(--orange);
+                    transition: 0.3s;
+                }
+                
+                .list a:hover {
+                    color: var(--aqua);
+                    transition: 0.3s;
+                }
+                
+                .header-left {
+                    position: absolute;
+                    width: 50%;
+                }
+                
+                .wrapper-hero {
+                    position: relative;
+                    display: flex;
+                    width: 100%;
+                    margin-top: 75px;
+                    height: 89%
+                }
+                
+                .hero-left {
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    gap: 20px;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                .title {
+                    width: 100%;
+                    height: 20%;
+                }
+                
+                .title img {
+                    display: block;
+                    height: 100%;
+                    margin: auto;
+                }
+                
+                .button {
+                    width: 100%;
+                    height: 8%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                .button button {
+                    width: 150px;
+                    height: 100%;
+                    font-family: 'Space Grotesk', sans-serif;
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: var(--black);
+                    background-color: #FF9800;
+                    transition: 0.3s;
+                }
+                
+                .button button:hover {
+                    background-color: var(--aqua);
+                    color: var(--gray);
+                    transition: 0.3s;
+                    cursor: pointer;
+                }
+                
+                .hero-right {
+                    width: 50%;
+                    height: 100%;
+                    background: linear-gradient(180.26deg, rgba(0, 0, 0, 0.26) 72.29%, #000000 99.77%), linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.26) 26.82%), url("../img/faisca.jfif");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+                
+                .orange-line {
+                    position: absolute;
+                    width: 100%;
+                    height: 5px;
+                    background-color: var(--orange);
+                }
+                
+                #line-two {
+                    margin-top: -10px;
+                }
+                
+                #line-three {
+                    margin-top: -20px;
+                }
+                
+                #line-four {
+                    margin-top: -30px;
+                }
+                /*fim da header*/
