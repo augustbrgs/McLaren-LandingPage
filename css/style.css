@@ -82,7 +82,7 @@
                 
                 .list a {
                     font-family: 'Space Grotesk', sans-serif;
-                    font-size: 22px;
+                    font-size: 1.2rem;
                     font-weight: 700;
                     text-decoration: none;
                     color: var(--orange);
@@ -139,7 +139,7 @@
                     width: 150px;
                     height: 100%;
                     font-family: 'Space Grotesk', sans-serif;
-                    font-size: 20px;
+                    font-size: 1.2rem;
                     font-weight: 700;
                     color: var(--black);
                     background-color: #FF9800;
@@ -224,14 +224,14 @@
                 
                 .spacer h1 {
                     font-family: 'Space Grotesk', sans-serif;
-                    font-size: 52px;
+                    font-size: 3rem;
                     font-weight: 700;
                     color: var(--black);
                 }
                 
                 .spacer h2 {
                     font-family: 'Space Grotesk', sans-serif;
-                    font-size: 28px;
+                    font-size: 2.5rem;
                     font-weight: 500;
                     color: var(--orange);
                 }
@@ -262,7 +262,7 @@
                 .content-title h1 {
                     position: relative;
                     font-family: 'Space Grotesk', sans-serif;
-                    font-size: 30px;
+                    font-size: 2rem;
                     color: var(--orange);
                     text-align: center;
                     width: 100%;
@@ -277,7 +277,7 @@
                 
                 .content-text h3 {
                     font-family: 'Space Grotesk', sans-serif;
-                    font-size: 20px;
+                    font-size: 1.2rem;
                 }
                 
                 .content-image {
@@ -351,7 +351,7 @@
                 
                 .tributo-txt {
                     font-family: 'Space Grotesk', sans-serif;
-                    font-size: 16px;
+                    font-size: 1.2rem;
                     color: var(--white);
                 }
                 
@@ -383,7 +383,7 @@
                 
                 .senna p {
                     font-family: 'Montserrat';
-                    font-size: 64px;
+                    font-size: 4rem;
                     font-weight: 700;
                     color: var(--white);
                 }
@@ -394,7 +394,7 @@
                 
                 .frase p {
                     font-family: 'Montserrat', sans-serif;
-                    font-size: 24px;
+                    font-size: 1.5rem;
                     color: var(--white);
                     text-align: center;
                 }
@@ -406,7 +406,7 @@
                 
                 .tributo-left-bot p {
                     font-family: 'Open Sans', sans-serif;
-                    font-size: 22px;
+                    font-size: 1.3rem;
                     font-weight: 400;
                     color: var(--white);
                     line-height: 35px;
@@ -429,7 +429,7 @@
                 
                 .title-pilotos h1 {
                     font-family: 'Space Grotesk', sans-serif;
-                    font-size: 60px;
+                    font-size: 3rem;
                     color: var(--white);
                 }
                 
@@ -458,7 +458,7 @@
                 
                 .piloto-name h3 {
                     font-family: 'Space Grotesk', sans-serif;
-                    font-size: 48px;
+                    font-size: 2.8rem;
                     color: var(--gray);
                 }
                 
@@ -469,7 +469,7 @@
                 
                 .piloto-texto p {
                     font-family: 'Space Grotesk', sans-serif;
-                    font-size: 28px;
+                    font-size: 1.5rem;
                     color: var(--white);
                 }
                 
@@ -485,13 +485,13 @@
                 
                 .achievm-top h3 {
                     font-family: 'Space Grotesk', sans-serif;
-                    font-size: 32px;
+                    font-size: 2rem;
                     color: var(--aqua);
                 }
                 
                 .achievm-bot h3 {
                     font-family: 'Space Grotesk', sans-serif;
-                    font-size: 26px;
+                    font-size: 1.6rem;
                     color: var(--white);
                 }
                 
@@ -513,7 +513,7 @@
                     width: 45%;
                     height: 100%;
                     background-image: url("../img/landinho.webp");
-                    background-size: 120%;
+                    background-size: 160%;
                     background-position: 50% 110%;
                     background-repeat: no-repeat;
                 }
@@ -522,24 +522,27 @@
                     width: 45%;
                     height: 100%;
                     background-image: url("../img/daniric.png");
-                    background-size: 60%;
+                    background-size: 90%;
                     background-position: 50% 110%;
                     background-repeat: no-repeat;
                 }
                 
                 .piloto-num {
+                    position: relative;
                     float: right;
                     height: fit-content;
                     width: fit-content;
+                    top: 80px;
+                    z-index: 5;
                 }
                 
                 .piloto-num p {
                     color: var(--aqua);
                     font-family: 'Space Grotesk', sans-serif;
                     font-weight: 300;
-                    font-size: 102px;
+                    font-size: 6rem;
                     margin-bottom: 0px;
-                    margin-top: 50px;
+                    margin-top: -30px;
                     margin-right: 120px;
                 }
                 
