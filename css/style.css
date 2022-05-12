@@ -20,11 +20,24 @@
                     background-color: var(--black);
                 }
                 
+                #amarelo {
+                    color: #FFDF00;
+                }
+                
+                #laranja {
+                    color: var(--orange);
+                }
+                
+                #azul {
+                    color: var(--aqua);
+                }
+                
                 .wrapper {
                     position: absolute;
                     width: 100%;
                     height: fit-content;
                 }
+                /*header e navbar*/
                 
                 #header {
                     position: relative;
@@ -171,7 +184,7 @@
                 #line-four {
                     margin-top: -40px;
                 }
-                /*fim da header*/
+                /*historia em linha do tempo*/
                 
                 .wrapper-hist {
                     position: relative;
@@ -194,6 +207,12 @@
                     position: relative;
                     width: 100%;
                     height: 150px;
+                }
+                
+                .oneh {
+                    position: relative;
+                    width: 100%;
+                    height: 100px;
                 }
                 
                 .spacer {
@@ -292,6 +311,7 @@
                     align-items: center;
                     border-left: 3px solid var(--orange);
                 }
+                /*tributo ao senna*/
                 
                 .wrapper-tributo {
                     position: relative;
@@ -380,10 +400,6 @@
                     text-align: center;
                 }
                 
-                #sobrenome {
-                    color: #FFDF00;
-                }
-                
                 .tributo-left-bot {
                     width: 100%;
                     height: 50%;
@@ -395,4 +411,169 @@
                     font-weight: 400;
                     color: var(--white);
                     line-height: 35px;
+                }
+                /*pilotos*/
+                
+                .wrapper-pilotos {
+                    position: relative;
+                    width: 100%;
+                    height: fit-content;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                
+                .title-pilotos {
+                    width: 90%;
+                    height: fit-content;
+                }
+                
+                .title-pilotos h1 {
+                    font-family: 'Space Grotesk', sans-serif;
+                    font-size: 60px;
+                    color: var(--white);
+                }
+                
+                .lando-norris {
+                    position: relative;
+                    width: 100%;
+                    height: 800px;
+                    border-top: 5px solid var(--orange);
+                    border-bottom: 5px solid var(--orange);
+                    display: flex;
+                }
+                
+                .piloto-left {
+                    width: 55%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                .piloto-name {
+                    width: 81.9%;
+                    height: fit-content;
+                }
+                
+                .piloto-name h3 {
+                    font-family: 'Space Grotesk', sans-serif;
+                    font-size: 48px;
+                    color: var(--gray);
+                }
+                
+                .piloto-texto {
+                    width: 81.9%;
+                    height: fit-content;
+                }
+                
+                .piloto-texto p {
+                    font-family: 'Space Grotesk', sans-serif;
+                    font-size: 28px;
+                    color: var(--white);
+                }
+                
+                .achievm-top {
+                    width: fit-content;
+                    height: 50%;
+                }
+                
+                .achievm-bot {
+                    width: fit-content;
+                    height: 50%;
+                }
+                
+                .achievm-top h3 {
+                    font-family: 'Space Grotesk', sans-serif;
+                    font-size: 32px;
+                    color: var(--aqua);
+                }
+                
+                .achievm-bot h3 {
+                    font-family: 'Space Grotesk', sans-serif;
+                    font-size: 26px;
+                    color: var(--white);
+                }
+                
+                .piloto-achievm {
+                    width: 81.9%;
+                    height: fit-content;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                }
+                
+                .piloto-details {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                
+                #landinho {
+                    width: 45%;
+                    height: 100%;
+                    background-image: url("../img/landinho.webp");
+                    background-size: 120%;
+                    background-position: 50% 110%;
+                    background-repeat: no-repeat;
+                }
+                
+                #dannyric {
+                    width: 45%;
+                    height: 100%;
+                    background-image: url("../img/daniric.png");
+                    background-size: 60%;
+                    background-position: 50% 110%;
+                    background-repeat: no-repeat;
+                }
+                
+                .piloto-num {
+                    float: right;
+                    height: fit-content;
+                    width: fit-content;
+                }
+                
+                .piloto-num p {
+                    color: var(--aqua);
+                    font-family: 'Space Grotesk', sans-serif;
+                    font-weight: 300;
+                    font-size: 102px;
+                    margin-bottom: 0px;
+                    margin-top: 0px;
+                    margin-right: 120px;
+                }
+                
+                .daniel-ricciardo {
+                    position: relative;
+                    width: 100%;
+                    height: 850px;
+                    border-bottom: 5px solid var(--aqua);
+                    display: flex;
+                }
+                
+                footer {
+                    position: relative;
+                    width: 100%;
+                    height: 400px;
+                    background-color: var(--orange);
+                    display: flex;
+                }
+                
+                .footer-left {
+                    width: 50%;
+                    height: 100%;
+                    background-image: url("../img/fatec.png");
+                    background-repeat: no-repeat;
+                    background-size: 20%;
+                    background-position: 10% 50%;
+                }
+                
+                .footer-right {
+                    width: 50%;
+                    height: 100%;
+                    background-image: url("../img/mclaren-txt-black.png");
+                    background-repeat: no-repeat;
+                    background-size: 40%;
+                    background-position: 80% 50%;
                 }
