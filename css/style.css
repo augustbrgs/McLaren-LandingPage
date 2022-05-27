@@ -166,6 +166,20 @@
                     width: 100%;
                     height: 5px;
                     background-color: var(--orange);
+                    animation-name: pull;
+                    animation-duration: 0.5s;
+                }
+                
+                @keyframes pull {
+                    from {
+                        transform: translateX(100vw);
+                        opacity: 0;
+                        animation-timing-function: ease-in-out
+                    }
+                    to {
+                        transform: translateX(0);
+                        opacity: 1;
+                    }
                 }
                 
                 #line-one {
